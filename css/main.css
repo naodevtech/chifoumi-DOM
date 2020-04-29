@@ -1,0 +1,118 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    transition-duration: .5s;
+}
+body{
+    margin: 0;
+    background-image: url('../images/background-mickey.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    /* background-color: yellow; */
+    height: 100vh;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 10em;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 1.3em;
+    font-family: 'minnie';
+    color: black;
+    /* background-color: blue; */
+    color: #E3C103;
+    text-shadow: 15px 15px 20px black;
+}
+
+nav{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}
+nav img{
+    height: 125px;
+}
+
+.box-screen{
+    /* background-color: white; */
+    height: 50%;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.screen-computer{
+    /* background-color: purple; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.screen-computer img{
+    height: 300px;
+}
+
+.none{
+    display: none;
+}
+
+.playing{
+    display: initial;
+}
+
+.reverse{
+    transform: scaleX(1);
+}
+
+.screen-player{
+    height: 100%;
+    /* background-color: green; */
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+}
+
+.box-controls{
+    /* background: grey; */
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2.5em;
+}
+
+.btn-control{
+    background-color: rgba(255, 255, 255, 0.356);
+    height: 120%;
+    width: 20%;
+    border-radius: 80%;
+    outline: none;
+    transition-duration: 1s;
+    cursor: pointer;
+    border: 1em solid black;
+}
+
+.btn-control:hover{
+    background-color: white;
+    transform: scale(1.2);
+}
+
+.btn-control img{
+    height: 100%;
+}
+
+.checked{
+    background-color: "#E3C103";
+}
